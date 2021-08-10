@@ -2,7 +2,7 @@
   "name": "jsdojo",
   "version": "1.0.0",
   "description": "",
-  "main": "ticket.js",
+  "main": "src/ticket.js",
   "scripts": {
     "test": "jest"
   },

@@ -1,9 +1,10 @@
 
-#Ticket de caisse
+# Ticket de caisse
 Ecrire un programme qui imprime un ticket de caisse
 pour le client d'un magasin
 
-- le programme reçois la liste des identifiants articles acheté (code barre)
+- le programme reçois la liste des identifiants 
+  articles achetés (code barre)
 - le programme reçois le catalogue des informations articles
 
 - additionne les prix des articles
@@ -43,5 +44,3 @@ Le ticket de caisse doir comporter :
 - le taux de TVA : 20%
 - montant HTVA : 16.66€
 - montant TTC : 20€
-
-*/
