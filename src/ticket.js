@@ -9,8 +9,20 @@ function editerTicketDeCaisse(quantiteArticle, prixArticle){
          }
 }
 
+function getArticleFromCatalogue(refArticle, catalogue){
+
+    for (let j = 0; j < catalogue.length; j++) {
+        let article = catalogue[j]
+
+        if(article.ean === refArticle){
+            return article
+        }
+    }
+
+}
 
 
 
 
-module.exports = {editerTicketDeCaisse}
+
+module.exports = {editerTicketDeCaisse,getArticleFromCatalogue}

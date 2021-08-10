@@ -25,22 +25,15 @@ pour le client d'un magasin
 
 ___
 
-## Example mapping 
+## Example mapping
 
-Le ticket doit mentionner les prix et infos TVA d'un article commandé
+le prix d'un article se trouve dans un catalogue
+indexé sur son code-barre
 
 je reçois :
 - Une reference d'article : "#445587"
-- Une quantité d'article : 2
 - Un catalogue comprenant l'article
-    - et le prix unitaire : 10 €
+  - designation article "tournevis"
+  - le prix unitaire : 10 €
 
-Le ticket de caisse doir comporter :
-- la designation de l'article
-- la quantité
-- le prix unitaire : 10€
-- le total article : 20€
-- le total général : 20€
-- le taux de TVA : 20%
-- montant HTVA : 16.66€
-- montant TTC : 20€
+je retrouve le prix de l'article
