@@ -18,7 +18,6 @@ function getArticleFromCatalogue(refArticle, catalogue){
             return article
         }
     }
-
 }
 
 
