@@ -27,13 +27,39 @@ ___
 
 ## Example mapping
 
-le prix d'un article se trouve dans un catalogue
-indexé sur son code-barre
+ - **Story :** imprimer un ticket pour le client
+   - **Règle :** trouver le prix d'un article (source : catalogue + code-barre)
+     - **Exemple :**<br> 
+       je reçois :<br>
+       Une reference d'article : "#445587"<br>
+       Un catalogue comprenant l'article<br>
+        -> designation article "tournevis"<br>
+        -> le prix unitaire : 10 €<br>
+       je retrouve le prix de l'article<br><br>
+     - **Exemple :**<br>
+       je reçois :<br>
+       Une reference d'article : "#567894"<br>
+       Un catalogue comprenant l'article<br>
+       -> designation article "marteau"<br>
+       -> le prix unitaire : 20,52 €<br>
+       je retrouve le prix de l'article<br><br>
+     
+   - **Règle :** Le ticket doit mentionner le prix d'un article
+     - **Exemple :**<br>
+       le client achete un article a 10€<br>
+       Le ticket de caisse doir comporter :<br>
+       -> la designation de l'article<br>
+       -> le prix unitaire : 10€<br><br>
+     
+   - **Règle :** Le ticket doit mentionner les infos TVA
+     - **Exemple :**<br>
+       je reçois :<br>
+       deux articles a 10 €<br>
+       Le ticket de caisse doir comporter :<br>
+       -> le taux de TVA : 20%<br>
+       -> montant HTVA : 16.66€<br>
+       -> montant TTC : 20€<br><br>
 
-je reçois :
-- Une reference d'article : "#445587"
-- Un catalogue comprenant l'article
-  - designation article "tournevis"
-  - le prix unitaire : 10 €
-
-je retrouve le prix de l'article
+   - **Règle :** le ticket doit comporter la liste des articles achetés (noms + prix unitaire)
+   
+   - **Règle :** lorsque l'article n'est pas dans le catalogue -> envoyer un message d'erreur
