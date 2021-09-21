@@ -8,7 +8,7 @@ const catalogueArticle = [
 
 
 
-describe("my scenarios",()=>{
+describe("ticket de caisse",()=>{
 
   it('Le ticket doit mentionner les prix et infos TVA d\'un article commandé',()=>{
     //Given
