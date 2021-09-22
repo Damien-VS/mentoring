@@ -5,7 +5,9 @@ const catalogueArticle = [
   {ean:"567894", designation:"marteau", prix:20.52},
 ]
 
-// prochaine étape : refactoring du premier test ?
+// TODO prochaine étape : refactoring du premier test ?
+// ==> y a-t-il trop d'infos dedans ?
+// ==> Doit-on passer les details de l'articles, même si ils sont présents dans le catalogue ?
 
 
 describe("infos prix du ticket de caisse",()=> {

@@ -1,4 +1,3 @@
-
 function editerTicketDeCaisse(quantiteArticle, prixArticle, designationArticle){
   const totalArticle = quantiteArticle * prixArticle
   const totalGeneral = totalArticle
@@ -20,10 +19,7 @@ function getArticleFromCatalogue(refArticle, catalogue){
             return article
         }
     }
-}
-
-
-
+} //FIXME : ligne non couverte par les tests - aucun test ne sort de la boucle sans rien retourner
 
 
 module.exports = {editerTicketDeCaisse,getArticleFromCatalogue}
