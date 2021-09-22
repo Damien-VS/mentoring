@@ -44,12 +44,18 @@ ___
        -> le prix unitaire : 20,52 €<br>
        je retrouve le prix de l'article<br><br>
      
-   - **Règle :** Le ticket doit mentionner le prix d'un article
+   - **Règle :** Le ticket doit mentionner les designations et les prix des articles
      - **Exemple :**<br>
        le client achete un article a 10€<br>
-       Le ticket de caisse doir comporter :<br>
-       -> la designation de l'article<br>
+       Le ticket de caisse doit comporter :<br>
+       -> la designation de l'article : tournevis<br>
        -> le prix unitaire : 10€<br><br>
+     
+     - **Exemple :**<br>
+       le client achete un article a 10€ et un article a 6€<br>
+       Le ticket de caisse doit comporter :<br>
+       -> la designation des deux articles : tournevis et marteau<br>
+       -> le prix unitaire des deux articles : 10€ et 6€<br><br>
      
    - **Règle :** Le ticket doit mentionner les infos TVA
      - **Exemple :**<br>

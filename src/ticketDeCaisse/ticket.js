@@ -1,11 +1,13 @@
 
-function editerTicketDeCaisse(quantiteArticle, prixArticle){
+function editerTicketDeCaisse(quantiteArticle, prixArticle, designationArticle){
   const totalArticle = quantiteArticle * prixArticle
   const totalGeneral = totalArticle
   
   return {
            "totalArticle" : totalArticle,
            "totalGeneral" : totalGeneral,
+           "prixArticle" : prixArticle,
+           "designationArticle" : designationArticle,
          }
 }
 
