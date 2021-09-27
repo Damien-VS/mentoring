@@ -1,4 +1,5 @@
 
+
 # Ticket de caisse
 Ecrire un programme qui imprime un ticket de caisse
 pour le client d'un magasin
